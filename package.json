@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.3.0",
+  "scripts": {
+    "repro": "pnpm install && pnpm --filter=./packages/app run build && pnpm --filter=./packages/app preview"
+  }
+}

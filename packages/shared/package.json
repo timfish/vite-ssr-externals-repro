@@ -1,0 +1,11 @@
+{
+  "name": "@ahaines/shared",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "default": "./index.js"
+  },
+  "dependencies": {
+    "require-in-the-middle": "7.5.1"
+  }
+}
