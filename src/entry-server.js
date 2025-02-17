@@ -1,7 +1,5 @@
 import javascriptLogo from './javascript.svg'
-import { hello } from '@ahaines/shared'
-
-hello()
+import 'require-in-the-middle'
 
 /**
  * @param {string} _url
